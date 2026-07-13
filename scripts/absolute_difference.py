@@ -58,7 +58,7 @@ def process_video(input_video, output_video, threshold):
 
 
 process_video(
-    input_video="3.mp4",
-    output_video="video_a3.mp4",
-    threshold=30
+    input_video="6.mp4",
+    output_video="video_6.mp4",
+    threshold=40
 )

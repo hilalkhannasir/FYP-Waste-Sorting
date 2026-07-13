@@ -173,7 +173,7 @@ def process_folder(folder_path, output_file):
     return channel_stats_df
 
 
-CLASSES = ["cardboard","cloth","egg-shell","organic","plastic","plastic-bag","tea-waste"]
+CLASSES = ["green","inbag","mango","onion"]
 channel_stats = {}
 for cls in CLASSES:
     channel_stats[cls] = process_folder(f'crops/{cls}',f'{cls}_lab_analysis.xlsx')
